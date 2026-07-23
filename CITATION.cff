@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use or adapt this demo, please cite it as below."
+title: "Covenant Sentinel Demo"
+type: software
+authors:
+  - name: "JulyMarc"
+version: "0.1.0"
+date-released: "2026-07-23"
+license: "Apache-2.0"
+repository-code: "https://github.com/JulyMarc/covenant-sentinel-demo"
+abstract: "Synthetic covenant monitoring demo with deterministic calculations, citations, evidence quotes, refusal behavior, governance notes and evals."
+keywords:
+  - document-ai
+  - covenant-monitoring
+  - applied-ai
+  - fintech
+  - evals

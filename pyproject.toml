@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Synthetic covenant monitoring demo with deterministic calculations, citations, refusals and evals."
 requires-python = ">=3.11"
 readme = "README.md"
+license = "Apache-2.0"
 
 [tool.ruff]
 line-length = 100

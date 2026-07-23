@@ -119,6 +119,12 @@ reports/demo_report.md               # generated covenant report
 GOVERNANCE.md                        # human-in-loop / model-risk framing
 ```
 
+## License and citation
+
+Code and documentation are released under the Apache License 2.0. See `LICENSE`.
+
+If you use or adapt this demo, please cite the repository. Citation metadata is provided in `CITATION.cff`.
+
 ## Interview framing
 
 > I built this as a synthetic prototype to explore the workflow, not to claim private-credit underwriting expertise. The point is the reliability pattern: cited values, deterministic calculations, tie-outs, refusal behavior, evals, and a human approval gate. I would expect credit professionals to challenge and correct the domain assumptions.
