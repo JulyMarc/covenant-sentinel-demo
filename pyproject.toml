@@ -1,0 +1,9 @@
+[project]
+name = "covenant-sentinel-demo"
+version = "0.1.0"
+description = "Synthetic covenant monitoring demo with deterministic calculations, citations, refusals and evals."
+requires-python = ">=3.11"
+readme = "README.md"
+
+[tool.ruff]
+line-length = 100

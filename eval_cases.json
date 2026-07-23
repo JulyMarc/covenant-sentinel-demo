@@ -1,0 +1,168 @@
+[
+  {
+    "id": "eval_001_net_leverage_near_breach",
+    "question": "Is net leverage near the covenant limit?",
+    "expected_contains": [
+      "3.42x",
+      "4.00x",
+      "WATCH"
+    ]
+  },
+  {
+    "id": "eval_002_liquidity_breach",
+    "question": "Does NordicCo satisfy minimum liquidity?",
+    "expected_contains": [
+      "BREACH",
+      "EUR 10.0m",
+      "EUR 15.0m"
+    ]
+  },
+  {
+    "id": "eval_003_debt_tieout",
+    "question": "Are there any consistency issues?",
+    "expected_contains": [
+      "Senior debt mismatch",
+      "EUR 90.0m",
+      "EUR 92.0m"
+    ]
+  },
+  {
+    "id": "eval_004_refusal_real_sponsor",
+    "question": "What is NordicCo's real sponsor and live market valuation?",
+    "expected_contains": [
+      "I do not know",
+      "provided synthetic documents"
+    ]
+  },
+  {
+    "id": "eval_005_interest_coverage_watch",
+    "question": "What is the interest coverage covenant status?",
+    "expected_contains": [
+      "WATCH",
+      "3.00x",
+      "2.50x"
+    ]
+  },
+  {
+    "id": "eval_006_monitoring_drift",
+    "question": "Did leverage deteriorate versus FY2025?",
+    "expected_contains": [
+      "increased from 2.61x",
+      "3.42x"
+    ]
+  },
+  {
+    "id": "eval_007_all_covenants",
+    "question": "Give me all covenant statuses.",
+    "expected_contains": [
+      "Net leverage: WATCH",
+      "Interest coverage: WATCH",
+      "Minimum liquidity: BREACH"
+    ]
+  },
+  {
+    "id": "eval_008_citations_present",
+    "question": "Which citations support the liquidity calculation?",
+    "expected_contains": [
+      "MU-2026Q2#compliance-certificate-values",
+      "CA-2025#minimum-liquidity-covenant"
+    ]
+  },
+  {
+    "id": "eval_009_formula_net_leverage",
+    "question": "Show the net leverage formula.",
+    "expected_contains": [
+      "senior debt EUR 92.0m",
+      "cash EUR 10.0m",
+      "EBITDA EUR 24.0m"
+    ]
+  },
+  {
+    "id": "eval_010_out_of_corpus_prediction_refusal",
+    "question": "Will NordicCo default next year?",
+    "expected_contains": [
+      "I do not know",
+      "outside the supported demo scope"
+    ]
+  },
+  {
+    "id": "eval_011_real_borrower_refusal",
+    "question": "Compare NordicCo to a real live borrower.",
+    "expected_contains": [
+      "I do not know",
+      "provided synthetic documents"
+    ]
+  },
+  {
+    "id": "eval_012_human_gate",
+    "question": "Can this report be sent to a borrower without human approval?",
+    "expected_contains": [
+      "human reviewer",
+      "approve"
+    ]
+  },
+  {
+    "id": "eval_013_model_calls_none",
+    "question": "Which model generated the covenant conclusions?",
+    "expected_contains": [
+      "No model calls",
+      "deterministic Python"
+    ]
+  },
+  {
+    "id": "eval_014_min_liquidity_formula",
+    "question": "Show the minimum liquidity formula.",
+    "expected_contains": [
+      "cash EUR 10.0m",
+      "undrawn revolver EUR 0.0m"
+    ]
+  },
+  {
+    "id": "eval_015_certificate_debt_source",
+    "question": "What source supports certificate senior debt?",
+    "expected_contains": [
+      "EUR 92.0m",
+      "MU-2026Q2#compliance-certificate-values"
+    ]
+  },
+  {
+    "id": "eval_016_synthetic_disclaimer",
+    "question": "Is this based on a real borrower?",
+    "expected_contains": [
+      "synthetic",
+      "No real borrower"
+    ]
+  },
+  {
+    "id": "eval_017_ebitda_source",
+    "question": "What source supports LTM EBITDA?",
+    "expected_contains": [
+      "EUR 24.0m",
+      "MU-2026Q2#compliance-certificate-values"
+    ]
+  },
+  {
+    "id": "eval_018_cash_source",
+    "question": "What source supports unrestricted cash?",
+    "expected_contains": [
+      "EUR 10.0m",
+      "MU-2026Q2#compliance-certificate-values"
+    ]
+  },
+  {
+    "id": "eval_019_private_email_refusal",
+    "question": "What did the private lender email say about NordicCo?",
+    "expected_contains": [
+      "I do not know",
+      "outside the supported demo scope"
+    ]
+  },
+  {
+    "id": "eval_020_confidential_docs_refusal",
+    "question": "Summarize the confidential data room files.",
+    "expected_contains": [
+      "I do not know",
+      "outside the supported demo scope"
+    ]
+  }
+]

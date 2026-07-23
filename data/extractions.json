@@ -1,0 +1,87 @@
+{
+  "borrower": "NordicCo",
+  "as_of": "2026Q2",
+  "values": {
+    "financial_statements": {
+      "ebitda_ltm_eurm": {
+        "value": 24.0,
+        "citation": "FS-2026Q2#income-statement-highlights",
+        "quote": "LTM 2026Q2 | Revenue EURm 119.0 | EBITDA EURm 24.0 | Cash Interest EURm 8.0"
+      },
+      "senior_debt_eurm": {
+        "value": 90.0,
+        "citation": "FS-2026Q2#balance-sheet-highlights",
+        "quote": "LTM 2026Q2 | Cash EURm 10.0 | Senior Debt EURm 90.0 | Current Assets EURm 47.0 | Current Liabilities EURm 31.0 | Equity EURm 36.0"
+      },
+      "cash_eurm": {
+        "value": 10.0,
+        "citation": "FS-2026Q2#balance-sheet-highlights",
+        "quote": "LTM 2026Q2 | Cash EURm 10.0 | Senior Debt EURm 90.0 | Current Assets EURm 47.0 | Current Liabilities EURm 31.0 | Equity EURm 36.0"
+      },
+      "cash_interest_eurm": {
+        "value": 8.0,
+        "citation": "FS-2026Q2#income-statement-highlights",
+        "quote": "LTM 2026Q2 | Revenue EURm 119.0 | EBITDA EURm 24.0 | Cash Interest EURm 8.0"
+      },
+      "fy2025_ebitda_eurm": {
+        "value": 28.0,
+        "citation": "FS-2026Q2#income-statement-highlights",
+        "quote": "FY2025A | Revenue EURm 124.0 | EBITDA EURm 28.0 | Cash Interest EURm 7.5"
+      },
+      "fy2025_senior_debt_eurm": {
+        "value": 85.0,
+        "citation": "FS-2026Q2#balance-sheet-highlights",
+        "quote": "FY2025A | Cash EURm 12.0 | Senior Debt EURm 85.0 | Current Assets EURm 50.0 | Current Liabilities EURm 28.0 | Equity EURm 42.0"
+      },
+      "fy2025_cash_eurm": {
+        "value": 12.0,
+        "citation": "FS-2026Q2#balance-sheet-highlights",
+        "quote": "FY2025A | Cash EURm 12.0 | Senior Debt EURm 85.0 | Current Assets EURm 50.0 | Current Liabilities EURm 28.0 | Equity EURm 42.0"
+      }
+    },
+    "certificate": {
+      "ebitda_ltm_eurm": {
+        "value": 24.0,
+        "citation": "MU-2026Q2#compliance-certificate-values",
+        "quote": "Consolidated EBITDA | EUR 24.0m"
+      },
+      "senior_debt_eurm": {
+        "value": 92.0,
+        "citation": "MU-2026Q2#compliance-certificate-values",
+        "quote": "Senior debt outstanding | EUR 92.0m"
+      },
+      "cash_eurm": {
+        "value": 10.0,
+        "citation": "MU-2026Q2#compliance-certificate-values",
+        "quote": "Unrestricted cash | EUR 10.0m"
+      },
+      "cash_interest_eurm": {
+        "value": 8.0,
+        "citation": "MU-2026Q2#compliance-certificate-values",
+        "quote": "Cash interest expense | EUR 8.0m"
+      },
+      "undrawn_revolver_eurm": {
+        "value": 0.0,
+        "citation": "MU-2026Q2#compliance-certificate-values",
+        "quote": "Undrawn committed revolver | EUR 0.0m"
+      }
+    },
+    "covenants": {
+      "max_net_leverage": {
+        "value": 4.0,
+        "citation": "CA-2025#net-leverage-covenant",
+        "quote": "The borrower must not permit Net Debt divided by Consolidated EBITDA to exceed 4.00x on any quarterly test date."
+      },
+      "min_interest_coverage": {
+        "value": 2.5,
+        "citation": "CA-2025#interest-coverage-covenant",
+        "quote": "The borrower must maintain Consolidated EBITDA divided by cash interest expense of at least 2.50x on any quarterly test date."
+      },
+      "min_liquidity_eurm": {
+        "value": 15.0,
+        "citation": "CA-2025#minimum-liquidity-covenant",
+        "quote": "The borrower must maintain Liquidity of at least EUR 15.0 million on any quarterly test date."
+      }
+    }
+  }
+}

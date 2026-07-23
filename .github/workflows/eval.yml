@@ -1,0 +1,33 @@
+name: eval
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  covenant-sentinel-eval:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Syntax check
+        run: python -m py_compile covenant_sentinel.py
+
+      - name: Run deterministic evals
+        run: python covenant_sentinel.py eval
+
+      - name: Generate demo report
+        run: python covenant_sentinel.py report --out reports/demo_report.md
+
+      - name: Build Docker image
+        run: docker build -t covenant-sentinel-demo .
+
+      - name: Run Docker smoke
+        run: docker run --rm covenant-sentinel-demo
